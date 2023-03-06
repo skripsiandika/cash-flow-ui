@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 /// React router dom
-import {  Routes, Route, Outlet  } from "react-router-dom";
+import { Routes, Route, Outlet } from "react-router-dom";
 
 /// Css
 //import "swiper/css";
@@ -15,21 +15,6 @@ import Footer from "./layouts/Footer";
 import ScrollToTop from './layouts/ScrollToTop';
 /// Dashboard
 import Home from './components/Dashboard/Home';
-import EventList from './components/Dashboard/EventList';
-import EventPage from './components/Dashboard/EventPage';
-import Analytics from './components/Dashboard/Analytics';
-import Reviews from './components/Dashboard/Reviews';
-import DashboardCustomers from './components/Dashboard/Customers';
-import Task from './components/Dashboard/Task';
-
-//Demo
-import DashboardLight from './components/Dashboard/demo/DashboardLight';
-import Theme1 from './components/Dashboard/demo/Theme1';
-import Theme2 from './components/Dashboard/demo/Theme2';
-//import Theme3 from './components/Dashboard/demo/Theme3';
-import Theme4 from './components/Dashboard/demo/Theme4';
-import Theme5 from './components/Dashboard/demo/Theme5';
-import Theme6 from './components/Dashboard/demo/Theme6';
 
 
 //Content
@@ -40,7 +25,6 @@ import Blog from './components/Cms/Blog';
 
 
 //Ticket
-import CreateTicket from './components/Ticket/CreateTicket';
 import AllTicket from './components/Ticket/AllTicket';
 
 //Customers
@@ -92,8 +76,6 @@ import UiTypography from "./components/bootstrap/Typography";
 
 /// Plugins
 import Select2 from "./components/PluginsMenu/Select2/Select2";
-//import Nestable from "./components/PluginsMenu/Nestable/Nestable";
-//import MainNouiSlider from "./components/PluginsMenu/NouiSlider/MainNouiSlider";
 import MainSweetAlert from "./components/PluginsMenu/SweetAlert/SweetAlert";
 import Toastr from "./components/PluginsMenu/Toastr/Toastr";
 import JqvMap from "./components/PluginsMenu/JqvMap/JqvMap";
@@ -101,8 +83,6 @@ import Lightgallery from "./components/PluginsMenu/Lightgallery/Lightgallery";
 
 //Redux
 import Todo from "./pages/Todo";
-//import ReduxForm from "./components/Forms/ReduxForm/ReduxForm";
-//import WizardForm from "./components/Forms/ReduxWizard/Index";
 
 /// Widget
 import Widget from "./pages/Widget";
@@ -130,56 +110,44 @@ import Error403 from "./pages/Error403";
 import Error404 from "./pages/Error404";
 import Error500 from "./pages/Error500";
 import Error503 from "./pages/Error503";
-import Setting from "./layouts/Setting";
 import { ThemeContext } from "../context/ThemeContext";
 import Reports from "./pages/Reports";
+import RegistrationsList from "./components/Registrations/RegistrationsList";
+import CreateSme from "./components/sme/CreateSme";
 
 const Markup = () => {
   //const { menuToggle } = useContext(ThemeContext);
   const allroutes = [
     /// Dashboard
     { url: "", component: <Home /> },
-    { url: 'dashboard', component: <Home/> },
-    { url: 'dashboard-light', component: <DashboardLight/> },
-	  { url: 'event-list', component: <EventList/> },
-	  { url: 'event', component: <EventPage/> },
-	  { url: 'analytics', component: <Analytics/> },
-	  { url: 'reviews', component: <Reviews/> },
-	  { url: 'customers', component: <DashboardCustomers/> },
-	  { url: 'task', component: <Task/> },
-    
-    //Demo
-	  { url: 'dark-sidebar', component: <Theme1/> },
-	  { url: 'header-secondary', component: <Theme2/> },
-	  { url: 'horizontal-sidebar', component: <Theme4/> },
-	  { url: 'header-style', component: <Theme5/> },
-	  { url: 'mini-sidebar', component: <Theme6/> },
-    
+    { url: 'dashboard', component: <Home /> },
+
     //Content
-	  { url: 'content', component: <Content/> },
-	  { url: 'menu-1', component: <Menu/> },
-	  { url: 'email-template', component: <EmailTemplate/> },
-	  { url: 'blog', component: <Blog/> },
+    { url: 'content', component: <Content /> },
+    { url: 'menu-1', component: <Menu /> },
+    { url: 'email-template', component: <EmailTemplate /> },
+    { url: 'blog', component: <Blog /> },
 
     //Ticket
-	  { url: 'create-ticket', component: <CreateTicket/> },
-	  { url: 'all-ticket', component: <AllTicket/> },
+    { url: 'create-sme', component: <CreateSme /> },
+    { url: 'all-ticket', component: <AllTicket /> },
 
     //Customers
-    {url:'chat', component:<Chat/> },
-    {url:'customers-list', component:<CustomersList/> },
+    { url: 'chat', component: <Chat /> },
+    { url: 'customers-list', component: <CustomersList /> },
+    { url: 'sme-list', component: <RegistrationsList /> },
 
     //Reports
-    {url:'reports', component:<Reports/> },
+    { url: 'reports', component: <Reports /> },
 
 
     /// Apps
     { url: "app-profile", component: <AppProfile /> },
-    { url: "post-details", component: <PostDetails/> },
-    { url: "edit-profile", component: <EditProfile/> },
+    { url: "post-details", component: <PostDetails /> },
+    { url: "edit-profile", component: <EditProfile /> },
     { url: "email-compose", component: <Compose /> },
-    { url: "email-inbox", component: <Inbox/>},
-    { url: "email-read", component: <Read/> },
+    { url: "email-inbox", component: <Inbox /> },
+    { url: "email-read", component: <Read /> },
     { url: "app-calender", component: <Calendar /> },
 
     /// Chart
@@ -191,59 +159,59 @@ const Markup = () => {
 
     /// Bootstrap
     { url: "ui-alert", component: <UiAlert /> },
-    { url: "ui-badge", component: <UiBadge/> },
+    { url: "ui-badge", component: <UiBadge /> },
     { url: "ui-button", component: <UiButton /> },
     { url: "ui-modal", component: <UiModal /> },
     { url: "ui-button-group", component: <UiButtonGroup /> },
-    { url: "ui-accordion", component: <UiAccordion/> },
+    { url: "ui-accordion", component: <UiAccordion /> },
     { url: "ui-list-group", component: <UiListGroup /> },
     //{ url: "ui-media-object", component: UiMediaObject },
-    { url: "ui-card", component: <UiCards/> },
-    { url: "ui-carousel", component: <UiCarousel/> },
-    { url: "ui-dropdown", component: <UiDropDown/> },
+    { url: "ui-card", component: <UiCards /> },
+    { url: "ui-carousel", component: <UiCarousel /> },
+    { url: "ui-dropdown", component: <UiDropDown /> },
     { url: "ui-popover", component: <UiPopOver /> },
     { url: "ui-progressbar", component: <UiProgressBar /> },
     { url: "ui-tab", component: <UiTab /> },
     { url: "ui-pagination", component: <UiPagination /> },
-    { url: "ui-typography", component: <UiTypography/> },
-    { url: "ui-grid", component: <UiGrid/> },
+    { url: "ui-typography", component: <UiTypography /> },
+    { url: "ui-grid", component: <UiGrid /> },
 
     /// Plugin
     { url: "uc-select2", component: <Select2 /> },
     //{ url: "uc-nestable", component: Nestable },
     //{ url: "uc-noui-slider", component: <MainNouiSlider/> },
-    { url: "uc-sweetalert", component: <MainSweetAlert/> },
-    { url: "uc-toastr", component: <Toastr/> },
-    { url: "map-jqvmap", component: <JqvMap/> },
-    { url: "uc-lightgallery", component: <Lightgallery/> },
+    { url: "uc-sweetalert", component: <MainSweetAlert /> },
+    { url: "uc-toastr", component: <Toastr /> },
+    { url: "map-jqvmap", component: <JqvMap /> },
+    { url: "uc-lightgallery", component: <Lightgallery /> },
 
-	///Redux
-	{ url: "todo", component: <Todo/> },
-	//{ url: "redux-form", component: ReduxForm },
+    ///Redux
+    { url: "todo", component: <Todo /> },
+    //{ url: "redux-form", component: ReduxForm },
     //{ url: "redux-wizard", component: WizardForm },
-	
+
     /// Widget
-    { url: "widget-basic", component: <Widget/> },
+    { url: "widget-basic", component: <Widget /> },
 
     /// Shop
     { url: "ecom-product-grid", component: <ProductGrid /> },
-    { url: "ecom-product-list", component: <ProductList/> },
-    { url: "ecom-product-detail", component: <ProductDetail/> },
-    { url: "ecom-product-order", component: <ProductOrder/> },
+    { url: "ecom-product-list", component: <ProductList /> },
+    { url: "ecom-product-detail", component: <ProductDetail /> },
+    { url: "ecom-product-order", component: <ProductOrder /> },
     { url: "ecom-checkout", component: <Checkout /> },
     { url: "ecom-invoice", component: <Invoice /> },
-    { url: "ecom-product-detail", component: <ProductDetail/> },
-    { url: "ecom-customers", component: <Customers/> },
+    { url: "ecom-product-detail", component: <ProductDetail /> },
+    { url: "ecom-customers", component: <Customers /> },
 
     /// Form
-    { url: "form-element", component: <Element/> },
-    { url: "form-wizard", component: <Wizard/> },
+    { url: "form-element", component: <Element /> },
+    { url: "form-wizard", component: <Wizard /> },
     { url: "form-ckeditor", component: <CkEditor /> },
     { url: "form-pickers", component: <Pickers /> },
     { url: "form-validation", component: <FormValidation /> },
 
     /// table
-	{ url: 'table-filtering', component: <FilteringTable /> },
+    { url: 'table-filtering', component: <FilteringTable /> },
     { url: 'table-sorting', component: <SortingTable /> },
     { url: "table-datatable-basic", component: <DataTable /> },
     { url: "table-bootstrap-basic", component: <BootstrapTable /> },
@@ -253,17 +221,16 @@ const Markup = () => {
     { url: "page-lock-screen", component: <LockScreen /> },
     { url: "page-login", component: <Login /> },
     { url: "page-forgot-password", component: <ForgotPassword /> },
-    { url: "page-error-400", component: <Error400/> },
-    { url: "page-error-403", component: <Error403/> },
+    { url: "page-error-400", component: <Error400 /> },
+    { url: "page-error-403", component: <Error403 /> },
     { url: "page-error-404", component: <Error404 /> },
-    { url: "page-error-500", component: <Error500/> },
-    { url: "page-error-503", component: <Error503/> },
+    { url: "page-error-500", component: <Error500 /> },
+    { url: "page-error-503", component: <Error503 /> },
   ];
-  let path = window.location.pathname;
-  path = path.split("/");
-  path = path[path.length - 1];
+  // let path = window.location.pathname;
+  // path = path.split("/");
+  // path = path[path.length - 1];
 
-  let pagePath = path.split("-").includes("page");
   return (
     <>
       {/* <div
@@ -294,38 +261,37 @@ const Markup = () => {
         {!pagePath && <Footer />}
       </div> */}
       <Routes>
-          <Route path='page-lock-screen' element= {<LockScreen />} />
-          <Route path='page-error-400' element={<Error400/>} />
-          <Route path='page-error-403' element={<Error403/>} />
-          <Route path='page-error-404' element={<Error404/>} />
-          <Route path='page-error-500' element={<Error500/>} />
-          <Route path='page-error-503' element={<Error503/>} />
-          <Route  element={<MainLayout />} > 
-              {allroutes.map((data, i) => (
-                <Route
-                  key={i}
-                  exact
-                  path={`${data.url}`}
-                  element={data.component}
-                />
-              ))}
-          </Route>
+        <Route path='page-lock-screen' element={<LockScreen />} />
+        <Route path='page-error-400' element={<Error400 />} />
+        <Route path='page-error-403' element={<Error403 />} />
+        <Route path='page-error-404' element={<Error404 />} />
+        <Route path='page-error-500' element={<Error500 />} />
+        <Route path='page-error-503' element={<Error503 />} />
+        <Route element={<MainLayout />} >
+          {allroutes.map((data, i) => (
+            <Route
+              key={i}
+              exact
+              path={`${data.url}`}
+              element={data.component}
+            />
+          ))}
+        </Route>
       </Routes>
-      <Setting />
-	  <ScrollToTop />
+      <ScrollToTop />
     </>
   );
 };
 
-function MainLayout(){
+function MainLayout() {
   const { menuToggle, sidebariconHover } = useContext(ThemeContext);
   return (
-    <div id="main-wrapper" className={`show ${sidebariconHover ? "iconhover-toggle": ""} ${ menuToggle ? "menu-toggle" : ""}`}>  
+    <div id="main-wrapper" className={`show ${sidebariconHover ? "iconhover-toggle" : ""} ${menuToggle ? "menu-toggle" : ""}`}>
       <Nav />
       <div className="content-body" style={{ minHeight: window.screen.height - 45 }}>
-          <div className="container-fluid">
-            <Outlet />                
-          </div>
+        <div className="container-fluid">
+          <Outlet />
+        </div>
       </div>
       <Footer />
     </div>

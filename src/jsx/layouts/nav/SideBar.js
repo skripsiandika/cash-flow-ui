@@ -1,8 +1,8 @@
-import React, { Component, useContext, useEffect, useReducer, useState } from "react";
+import React, { useContext, useReducer, useState } from "react";
 
 import PerfectScrollbar from "react-perfect-scrollbar";
 //  import Collapse from 'react-bootstrap/Collapse';
-import { Collapse, Dropdown } from 'react-bootstrap';
+import { Collapse } from 'react-bootstrap';
 
 /// Link
 import { Link } from "react-router-dom";
@@ -10,9 +10,6 @@ import { Link } from "react-router-dom";
 import { MenuList } from './Menu';
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { ThemeContext } from "../../../context/ThemeContext";
-import LogoutPage from './Logout';
-
-import profile from "../../../images/profile/pic1.jpg";
 
 const reducer = (previousState, updatedState) => ({
   ...previousState,
@@ -40,12 +37,6 @@ const SideBar = () => {
   //useEffect(() => {			
   //}, []);
   //For scroll
-
-
-  let handleheartBlast = document.querySelector('.heart');
-  function heartBlast() {
-    return handleheartBlast.classList.toggle("heart-blast");
-  }
 
   const [hideOnScroll, setHideOnScroll] = useState(true)
   useScrollPosition(
@@ -81,12 +72,12 @@ const SideBar = () => {
       onMouseEnter={() => ChangeIconSidebar(true)}
       onMouseLeave={() => ChangeIconSidebar(false)}
       className={`deznav  border-right ${iconHover} ${sidebarposition.value === "fixed" &&
-          sidebarLayout.value === "horizontal" &&
-          headerposition.value === "static"
-          ? hideOnScroll > 120
-            ? "fixed"
-            : ""
+        sidebarLayout.value === "horizontal" &&
+        headerposition.value === "static"
+        ? hideOnScroll > 120
+          ? "fixed"
           : ""
+        : ""
         }`}
     >
       <PerfectScrollbar className="deznav-scroll">
@@ -162,9 +153,7 @@ const SideBar = () => {
                                 {data.title}
                               </Link>
                             }
-
                           </li>
-
                         )
                       })}
                     </ul>
@@ -175,12 +164,11 @@ const SideBar = () => {
           })}
         </ul>
         <div className="plus-box">
-          <p className="fs-15 font-w500 mb-1">Get summary report now</p>
+          <p className="fs-15 font-w500 mb-1">SME clustering and segmentation</p>
           <Link to={"#"} className="text-white fs-26"><i className="las la-long-arrow-alt-right"></i></Link>
         </div>
         <div className="copyright">
           <p className="fs-13 font-w200"><strong className="font-w400">Cash Flow Loan Apps Dashboard</strong> © {d.getFullYear()} All Rights Reserved</p>
-          <p>Made with <i className="fa fa-heart text-danger"></i> by PT. Bank BTPN Syariah</p>
         </div>
       </PerfectScrollbar>
     </div>
