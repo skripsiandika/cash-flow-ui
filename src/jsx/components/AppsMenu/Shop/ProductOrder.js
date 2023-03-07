@@ -2,8 +2,8 @@ import React from "react";
 
 import PageTitle from "../../../layouts/PageTitle";
 
-import { Dropdown } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import {Dropdown} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 const ProductOrder = () => {
   

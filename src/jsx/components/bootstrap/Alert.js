@@ -1,8 +1,8 @@
-import React, { Fragment, useReducer } from "react";
+import React, {Fragment, useReducer} from "react";
 import {Link} from 'react-router-dom';
 //import data from "./alertData";
 import PageTitle from "../../layouts/PageTitle";
-import { Row, Card, Col, Alert, Button } from "react-bootstrap";
+import {Alert, Button, Card, Col, Row} from "react-bootstrap";
 import {reducer} from './alertReducer';
 
 const emojis = {

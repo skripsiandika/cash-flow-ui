@@ -1,7 +1,7 @@
-import React, { useState, useRef, useEffect } from "react";
-import { Dropdown } from "react-bootstrap";
+import React, {useEffect, useRef, useState} from "react";
+import {Dropdown} from "react-bootstrap";
 
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 // import data from "./tableData.js";
 
 const PatientTable = () => {

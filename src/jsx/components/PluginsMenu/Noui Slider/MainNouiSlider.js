@@ -1,7 +1,6 @@
-import React, { Fragment } from "react";
+import React, {Fragment} from "react";
 import Nouislider from "nouislider-react";
 // import "nouislider/distribute/nouislider.css";
-
 import NouiColorPicker from "./NouiColor";
 
 import PageTitle from "../../../layouts/PageTitle";

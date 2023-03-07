@@ -1,18 +1,14 @@
-import { Component } from 'react';
-import { connect } from 'react-redux';
-import { Link, Route, Switch } from 'react-router-dom';
-import { bindActionCreators } from 'redux';
+import {Component} from 'react';
+import {connect} from 'react-redux';
+import {Link, Route, Switch} from 'react-router-dom';
+import {bindActionCreators} from 'redux';
 import EditPost from '../../pages/EditPost/EditPost';
 import SinglePost from '../../pages/SinglePost/SinglePost';
-import { Row, Col, Card, Table,  } from "react-bootstrap";
+import {Card, Col, Row, Table,} from "react-bootstrap";
 import PageTitle from "../../layouts/PageTitle";
 import swal from "sweetalert";
 
-import {
-    createPostAction,
-    getPostsAction,
-    deletePostAction,
-} from '../../../store/actions/PostActions';
+import {createPostAction, deletePostAction, getPostsAction,} from '../../../store/actions/PostActions';
 
 class Posts extends Component {
     onCreatePost() {

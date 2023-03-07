@@ -1,6 +1,6 @@
-import React, { Fragment, useReducer } from "react";
-import { Button, Dropdown, Modal, Tab, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import React, {Fragment, useReducer} from "react";
+import {Button, Dropdown, Modal, Nav, Tab} from "react-bootstrap";
+import {Link} from "react-router-dom";
 import LightGallery from 'lightgallery/react';
 // import styles
 import 'lightgallery/css/lightgallery.css';

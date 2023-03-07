@@ -1,5 +1,5 @@
-import React, { Fragment, useState } from "react";
-import { Link } from "react-router-dom";
+import React, {Fragment, useState} from "react";
+import {Link} from "react-router-dom";
 //** Import Image */
 import profile01 from "../../../../images/profile/1.jpg";
 import profile02 from "../../../../images/profile/2.jpg";
@@ -11,7 +11,7 @@ import profile07 from "../../../../images/profile/7.jpg";
 import profile08 from "../../../../images/profile/8.jpg";
 import profile09 from "../../../../images/profile/9.jpg";
 import profile from "../../../../images/profile/profile.png";
-import { Dropdown, Button, Modal } from "react-bootstrap";
+import {Button, Dropdown, Modal} from "react-bootstrap";
 
 import PageTitle from "../../../layouts/PageTitle";
 

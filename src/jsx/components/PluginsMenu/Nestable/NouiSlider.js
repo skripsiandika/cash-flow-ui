@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import PropTypes from "prop-types";
 
 import nouislider from "nouislider";
 
-import { isEqual } from "./utils";
+import {isEqual} from "./utils";
 
 const areEqual = (prevProps, nextProps) => {
    const { start, step, disabled, range } = prevProps;

@@ -1,6 +1,5 @@
-import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
-import PerfectScrollbar from "react-perfect-scrollbar"; 
+import React, {Fragment} from "react";
+import {Link} from "react-router-dom";
 import DropFile from "./DropFile";
 
 import PageTitle from "../../../../layouts/PageTitle";

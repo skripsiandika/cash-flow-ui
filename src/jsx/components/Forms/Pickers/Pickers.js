@@ -1,6 +1,6 @@
-import React, { useState, Fragment } from "react";
+import React, {Fragment, useState} from "react";
 
-import   DatePicker  from "react-datepicker";
+import DatePicker from "react-datepicker";
 //import { DatePicker } from "@y0c/react-datepicker";
 //import   RangeDatePicker  from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -16,7 +16,6 @@ import TimePicker from './TimePicker';
 //import MetarialDateAndTime from "./MetarialDateAndTime";
 //import MetarialTime from "./MetarialTime";
 //import ColorPicker from "./Color";
-import Gradient from "./LinearGradientPicker";
 
 import PageTitle from "../../../layouts/PageTitle";
 

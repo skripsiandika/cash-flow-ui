@@ -1,6 +1,6 @@
-import React, { Fragment, useReducer } from "react";
-import { Link } from "react-router-dom";
-import { Modal } from "react-bootstrap";
+import React, {Fragment, useReducer} from "react";
+import {Link} from "react-router-dom";
+import {Modal} from "react-bootstrap";
 
 import PageTitle from "../../../../layouts/PageTitle";
 

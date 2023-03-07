@@ -1,7 +1,7 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 
 /// React router dom
-import { Routes, Route, Outlet } from "react-router-dom";
+import {Outlet, Route, Routes} from "react-router-dom";
 
 /// Css
 //import "swiper/css";
@@ -110,7 +110,7 @@ import Error403 from "./pages/Error403";
 import Error404 from "./pages/Error404";
 import Error500 from "./pages/Error500";
 import Error503 from "./pages/Error503";
-import { ThemeContext } from "../context/ThemeContext";
+import {ThemeContext} from "../context/ThemeContext";
 import Reports from "./pages/Reports";
 import RegistrationsList from "./components/Registrations/RegistrationsList";
 import CreateSme from "./components/sme/CreateSme";
@@ -296,7 +296,6 @@ function MainLayout() {
       <Footer />
     </div>
   )
-
-};
+}
 
 export default Markup;

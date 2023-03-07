@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
+import React, {Fragment} from 'react'
 
 import PageTitle from '../../layouts/PageTitle'
-import { Row, Col, Card,  Tab, Nav } from 'react-bootstrap'
+import {Card, Col, Nav, Row, Tab} from 'react-bootstrap'
 
 const UiTab = () => {
   const tabData = [

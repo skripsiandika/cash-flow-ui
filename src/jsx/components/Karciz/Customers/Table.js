@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React, {useState} from 'react';
 import {nanoid} from 'nanoid';
 import data from './tabledata.json';
 import ReadOnlyRow from './ReadOnlyRow';

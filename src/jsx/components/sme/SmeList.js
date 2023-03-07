@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
-import { Dropdown } from 'react-bootstrap';
+import React, {useEffect, useRef, useState} from 'react';
+import {Link} from 'react-router-dom';
+import {Dropdown} from 'react-bootstrap';
 
 const ticketData = [
   { title: 'Glee Smiley', gender: 'Male', type: 'Badan Usaha', Rgdate: '10 Jan, 2023', Expdate: '12 Jan, 2023' },

@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
+import React, {Fragment} from "react";
 import PageTitle from "../../layouts/PageTitle";
-import { Row, Col, Card, Table } from "react-bootstrap";
+import {Card, Col, Row, Table} from "react-bootstrap";
 
 const UiGrid = () => {
    return (

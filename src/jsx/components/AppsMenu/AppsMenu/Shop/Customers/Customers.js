@@ -1,11 +1,11 @@
-import React, { Fragment } from "react";
+import React, {Fragment} from "react";
 import PageTitle from "../../../../layouts/PageTitle";
-import { Dropdown } from "react-bootstrap";
+import {Dropdown} from "react-bootstrap";
 
 /// images
 import avartar5 from "../../../../../images/avatar/5.png";
 import avartar1 from "../../../../../images/avatar/1.png";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const Customers = () => {
    const drop = (

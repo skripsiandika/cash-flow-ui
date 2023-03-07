@@ -1,9 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
-import {
-  default as image02,
-  default as image03,
-} from "./../../../../images/avatar/2.jpg";
+import React, {useEffect, useRef, useState} from "react";
+import {Link} from "react-router-dom";
+import {default as image02, default as image03,} from "./../../../../images/avatar/2.jpg";
 // Image
 import image01 from "./../../../../images/avatar/3.jpg";
 import image04 from "./../../../../images/avatar/4.jpg";

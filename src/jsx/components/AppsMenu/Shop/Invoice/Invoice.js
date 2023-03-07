@@ -1,4 +1,4 @@
-import React, {useContext, Fragment } from "react";
+import React, {Fragment, useContext} from "react";
 
 // images
 import qrcode from "../../../../../images/qr.png";
@@ -7,8 +7,7 @@ import logoTextlight from "../../../../../images/logo-text.png";
 import logoText from "../../../../../images/logo-text-white.png";
 //import { Link } from "react-router-dom";
 import PageTitle from "../../../../layouts/PageTitle";
-import { ThemeContext } from "../../../../../context/ThemeContext";
-
+import {ThemeContext} from "../../../../../context/ThemeContext";
 
 
 const Invoice = () => {

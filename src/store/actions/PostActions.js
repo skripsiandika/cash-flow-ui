@@ -1,10 +1,4 @@
-import {
-    createPost,
-    formatPosts,
-    getPosts,
-    deletePost,
-    updatePost,
-} from '../../services/PostsService';
+import {createPost, deletePost, formatPosts, getPosts, updatePost,} from '../../services/PostsService';
 import {
     CONFIRMED_CREATE_POST_ACTION,
     CONFIRMED_DELETE_POST_ACTION,

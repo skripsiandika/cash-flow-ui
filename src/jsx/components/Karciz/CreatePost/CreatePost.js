@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
-import { createPostAction } from '../../../../store/actions/PostActions';
-import { Row, Col, Card, Table, Badge, } from "react-bootstrap";
+import {useState} from 'react';
+import {useDispatch} from 'react-redux';
+import {Link} from 'react-router-dom';
+import {createPostAction} from '../../../../store/actions/PostActions';
+import {Row,} from "react-bootstrap";
 
 export default function CreatePost(props) {
     const [pid, setNumber] = useState('');

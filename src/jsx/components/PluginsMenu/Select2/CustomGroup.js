@@ -1,7 +1,7 @@
 import React from "react";
 
-import Select, { components } from "react-select";
-import { colourOptions, groupedOptions } from "./data";
+import Select, {components} from "react-select";
+import {colourOptions, groupedOptions} from "./data";
 
 const groupStyles = {
    border: `2px dotted ${colourOptions[2].color}`,

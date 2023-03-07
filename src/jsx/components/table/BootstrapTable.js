@@ -1,21 +1,12 @@
-import React, { Fragment } from "react";
+import React, {Fragment, useEffect, useState} from "react";
 import PageTitle from "../../layouts/PageTitle";
-import { useState, useEffect } from "react";
-import {
-  Row,
-  Col,
-  Card,
-  Table,
-  Badge,
-  Dropdown,
-  ProgressBar,
-} from "react-bootstrap";
+import {Badge, Card, Col, Dropdown, ProgressBar, Row, Table,} from "react-bootstrap";
 
 /// imge
 import avatar1 from "../../../images/avatar/1.jpg";
 import avatar2 from "../../../images/avatar/2.jpg";
 import avatar3 from "../../../images/avatar/3.jpg";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const BootstrapTable = () => {
   const svg1 = (

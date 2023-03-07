@@ -1,7 +1,7 @@
 import React from "react";
-import { Field, reduxForm } from "redux-form";
-import { compose } from "redux";
-import { connect } from "react-redux";
+import {Field, reduxForm} from "redux-form";
+import {compose} from "redux";
+import {connect} from "react-redux";
 import validate from "./validate";
 import renderField from "./renderField";
 

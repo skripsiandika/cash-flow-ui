@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import ColorPickerr from "material-ui-color-picker";
 
 const ColorPicker = () => {

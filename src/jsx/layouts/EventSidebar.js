@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 
 /// Scroll
 import PerfectScrollbar from "react-perfect-scrollbar";
 
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const EventSidebar = ({ activeEvent }) => {
    const [value, onChange] = useState(new Date());

@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import { Form } from "react-bootstrap";
+import React, {Fragment} from "react";
+import {Form} from "react-bootstrap";
 import PageTitle from "../../../../layouts/PageTitle";
 
 const Checkout = () => {

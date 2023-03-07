@@ -1,9 +1,7 @@
-import React, { useState } from 'react'
-import { connect, useDispatch } from 'react-redux';
-import { Link, useNavigate } from 'react-router-dom'
-import {
-  loadingToggleAction, loginAction,
-} from '../../store/actions/AuthActions';
+import React, {useState} from 'react'
+import {connect, useDispatch} from 'react-redux';
+import {Link, useNavigate} from 'react-router-dom'
+import {loadingToggleAction, loginAction,} from '../../store/actions/AuthActions';
 
 //
 import logo from '../../images/logo-2.png'

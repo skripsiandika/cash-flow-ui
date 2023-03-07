@@ -1,5 +1,4 @@
-import React from 'react'
-import { Fragment } from 'react'
+import React, {Fragment} from 'react'
 
 /// Page Title
 import PageTitle from '../../layouts/PageTitle'
@@ -14,7 +13,7 @@ import img6 from '../../../images/big/img6.jpg'
 import img7 from '../../../images/big/img7.jpg'
 
 /// Bootstrap
-import { Row, Col, Card, Carousel } from 'react-bootstrap'
+import {Card, Carousel, Col, Row} from 'react-bootstrap'
 
 /// carousel data
 const carousel1 = [img1, img2, img3]

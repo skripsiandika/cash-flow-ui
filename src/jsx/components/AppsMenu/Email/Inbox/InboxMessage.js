@@ -1,5 +1,5 @@
-import React,{useState} from "react";
-import { Link } from "react-router-dom";
+import React, {useState} from "react";
+import {Link} from "react-router-dom";
 
 const InboxMessage = ({ message: { text, time, icon }, id }) => {
    const [star, setStar] = useState(false);

@@ -1,6 +1,7 @@
 import React from "react";
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Pie } from 'react-chartjs-2';
+import {ArcElement, Chart as ChartJS, Legend, Tooltip} from 'chart.js';
+import {Pie} from 'react-chartjs-2';
+
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const ChartPie = ({ color1, color2, color3, height, width }) => {

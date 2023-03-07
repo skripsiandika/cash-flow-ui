@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link } from 'react-router-dom';
-import { Row, Col, Card } from "react-bootstrap";
+import {Card, Col, Row} from "react-bootstrap";
 import LineChart from "./line";
 import AreaChart from "./area";
 import PolarChart from "./polar";

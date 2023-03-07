@@ -1,6 +1,7 @@
 import React from "react";
-import { Line } from "react-chartjs-2";
+import {Line} from "react-chartjs-2";
 import "chartjs-plugin-streaming";
+
 var createReactClass = require("create-react-class");
 
 const data = {

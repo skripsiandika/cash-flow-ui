@@ -1,19 +1,16 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import {Swiper, SwiperSlide} from "swiper/react";
 //import { LazyLoadImage } from 'react-lazy-load-image-component';
-
 // Import Swiper styles
 import "swiper/css";
 
 import "swiper/css/pagination";
 
 // import Swiper core and required modules
-import { Autoplay } from "swiper";
+import {Autoplay} from "swiper";
 
 //SwiperCore.use([EffectCoverflow,Pagination]);
-
 import pic1 from '../../../../../images/product/1.jpg';
 import pic2 from '../../../../../images/product/2.jpg';
 import pic3 from '../../../../../images/product/3.jpg';

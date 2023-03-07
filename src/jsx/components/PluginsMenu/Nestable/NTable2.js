@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Nestable from "react-nestable";
 
 const items = [

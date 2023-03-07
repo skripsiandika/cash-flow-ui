@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
+import React, {Fragment} from 'react'
 
 import PageTItle from '../../../layouts/PageTitle'
-import { SplitButton, ButtonGroup, Dropdown } from 'react-bootstrap'
+import {ButtonGroup, Dropdown, SplitButton} from 'react-bootstrap'
 import DropdownMultiselect from 'react-multiselect-dropdown-bootstrap'
 
 const Element = () => {

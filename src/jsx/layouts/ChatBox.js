@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 
 /// Scroll
 import PerfectScrollbar from "react-perfect-scrollbar";
@@ -7,7 +7,7 @@ import PerfectScrollbar from "react-perfect-scrollbar";
 import Notes from "../components/chatBox/Notes";
 import Alerts from "../components/chatBox/Alerts";
 import Chat from "../components/chatBox/Chat";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const ChatBox = ({ onClick, toggle }) => {
    const [toggleTab, settoggleTab] = useState(

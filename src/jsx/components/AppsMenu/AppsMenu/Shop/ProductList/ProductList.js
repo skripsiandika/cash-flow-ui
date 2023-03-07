@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, {Fragment} from "react";
 import SingleProductList from "./SingleProductList";
 import productData from "../productData";
 import PageTitle from "../../../../layouts/PageTitle";

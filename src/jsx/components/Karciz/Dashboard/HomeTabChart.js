@@ -1,7 +1,7 @@
-import React,{Fragment} from 'react';
+import React, {Fragment} from 'react';
 import loadable from "@loadable/component";
 import pMinDelay from "p-min-delay";
-import {Tab , Nav} from  'react-bootstrap';
+import {Nav, Tab} from 'react-bootstrap';
 //import {Link} from 'react-router-dom';
 
 

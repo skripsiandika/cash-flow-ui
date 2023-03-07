@@ -1,7 +1,8 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, {useState} from "react";
+import {Link} from "react-router-dom";
 import productData from "../productData";
 import PageTitle from "../../../../layouts/PageTitle";
+
 const ProductDetail = ({ match }) => {
    //** Dynamic Key Single Place */
    const singleProductData = productData.find((sinPl) =>

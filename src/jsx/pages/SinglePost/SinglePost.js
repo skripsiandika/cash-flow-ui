@@ -1,12 +1,7 @@
 import {Link} from 'react-router-dom';
-import { connect } from 'react-redux';
-import { getPost } from '../../../store/selectors/PostSelectors';
-import {
-  Row,
-  Col,
-  Card,
-  Table,
-} from "react-bootstrap";
+import {connect} from 'react-redux';
+import {getPost} from '../../../store/selectors/PostSelectors';
+import {Card, Col, Row, Table,} from "react-bootstrap";
 
 function SinglePost(props) {
     return (

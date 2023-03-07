@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import loadable from "@loadable/component";
 import pMinDelay from "p-min-delay";
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import TrendingData from './../Karciz/Analytics/TrendingData';
 import HomeTabChart from './../Karciz/Dashboard/HomeTabChart';
-import { DropdownBlogYear, DropdownBlogYear2, DropdownBlogYear3 } from './../Karciz/Dropdown/DropdownBlog';
+import {DropdownBlogYear, DropdownBlogYear2, DropdownBlogYear3} from './../Karciz/Dropdown/DropdownBlog';
 
 const PieChart = loadable(() =>
 	pMinDelay(import("./../Karciz/Analytics/PieChart"), 1000)

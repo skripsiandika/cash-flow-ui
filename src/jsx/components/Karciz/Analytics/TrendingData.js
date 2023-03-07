@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
+
 const mediaBlog = [
 	{ id: '#1', title: 'The Story of Danau Toba', sales: '454', series: <IncrementBlog />, },
 	{ id: '#2', title: 'Jakarta Indie Music Festival 2020', sales: '341', series: <DecrementBlog />, },

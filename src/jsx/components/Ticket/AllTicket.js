@@ -1,6 +1,6 @@
-import React,{useState, useEffect, useRef} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import {Link} from 'react-router-dom';
-import { Dropdown } from 'react-bootstrap';
+import {Dropdown} from 'react-bootstrap';
 
 const ticketData = [
     {title:'System Architect', subtitle:'Edinburgh', number:'61', category:'molestiae', date:'2023/01/13', status:'Inprogress', statusBdge:'badge-info'},

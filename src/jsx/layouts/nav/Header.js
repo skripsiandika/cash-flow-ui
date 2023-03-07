@@ -1,14 +1,12 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 /// Scroll
-import PerfectScrollbar from "react-perfect-scrollbar";
 
 import LogoutPage from './Logout';
 /// Image
 import profile from "../../../images/profile/12.png";
-import avatar from "../../../images/avatar/1.jpg";
-import { Dropdown } from "react-bootstrap";
+import {Dropdown} from "react-bootstrap";
 
 const Header = ({ onNote, toggle, onProfile, onNotification, onClick }) => {
 	var path = window.location.pathname.split("/");

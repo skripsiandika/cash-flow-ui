@@ -1,7 +1,7 @@
-import React, { Fragment } from "react";
+import React, {Fragment} from "react";
 import {Link} from 'react-router-dom';
 import PageTitle from "../../layouts/PageTitle";
-import { Row, Col, Card } from "react-bootstrap";
+import {Card, Col, Row} from "react-bootstrap";
 
 const UiTypography = () => {
   return (

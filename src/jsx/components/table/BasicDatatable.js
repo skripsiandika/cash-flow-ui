@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, {useEffect, useRef, useState} from "react";
+import {Link} from "react-router-dom";
 
 const BasicDatatable = () => {
   const [data, setData] = useState(

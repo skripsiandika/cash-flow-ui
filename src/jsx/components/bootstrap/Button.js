@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react'
-import { Row, Col, Card, Button, Dropdown, ButtonGroup } from 'react-bootstrap'
+import React, {Fragment} from 'react'
+import {Button, ButtonGroup, Card, Col, Dropdown, Row} from 'react-bootstrap'
 import PageTitle from '../../layouts/PageTitle'
 
 const UiButton = () => {

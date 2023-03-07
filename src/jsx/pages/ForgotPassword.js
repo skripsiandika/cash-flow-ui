@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../images/logo-full.png";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
+
 const ForgotPassword = ({ history }) => {
   const onSubmit = (e) => {
     e.preventDefault();

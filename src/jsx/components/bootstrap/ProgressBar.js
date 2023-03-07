@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react'
+import React, {Fragment} from 'react'
 import PageTitle from '../../layouts/PageTitle'
-import { Row, Col, Card, ProgressBar } from 'react-bootstrap'
+import {Card, Col, ProgressBar, Row} from 'react-bootstrap'
 
 const UiProgressBar = () => {
   const progressBarData = [

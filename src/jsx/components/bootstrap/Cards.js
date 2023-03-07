@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, {Fragment} from 'react'
 
 /// Compoents
 import PageTitle from '../../layouts/PageTitle'
@@ -8,8 +8,8 @@ import img1 from '../../../images/card/1.png'
 import img2 from '../../../images/card/2.png'
 import img3 from '../../../images/card/3.png'
 /// Bootstrap
-import { Row, Card, Col, Button, Nav } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import {Button, Card, Col, Nav, Row} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 const UiCards = () => {
   return (

@@ -1,12 +1,6 @@
 import React from "react";
 //import { geoCentroid } from "d3-geo";
-import {
-  ComposableMap,
-  Geographies,
-  Geography,
- // Marker,
-  //Annotation
-} from "react-simple-maps";
+import {ComposableMap, Geographies, Geography,} from "react-simple-maps";
 
 //import allStates from "./allstates.json";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Pie } from "react-chartjs-2";
+import {Pie} from "react-chartjs-2";
 
 const ChartPie = ({ color1, color2, color3, height, width }) => {
   const data = {

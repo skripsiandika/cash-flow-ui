@@ -1,7 +1,7 @@
-import React, { Fragment, useState } from "react";
-import { Link } from "react-router-dom";
+import React, {Fragment, useState} from "react";
+import {Link} from "react-router-dom";
 import PageTitle from "../../../layouts/PageTitle";
-import { Formik } from "formik";
+import {Formik} from "formik";
 import * as Yup from "yup";
 
 const loginSchema = Yup.object().shape({

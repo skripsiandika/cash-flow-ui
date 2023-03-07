@@ -1,13 +1,7 @@
 import React from "react";
 
-import { Row, Col, Card } from "react-bootstrap";
-import {
-  Sparklines,
-  SparklinesLine,
-  SparklinesBars,
-  SparklinesSpots,
-  SparklinesReferenceLine,
-} from "react-sparklines";
+import {Card, Col, Row} from "react-bootstrap";
+import {Sparklines, SparklinesBars, SparklinesLine, SparklinesReferenceLine, SparklinesSpots,} from "react-sparklines";
 
 import PageTitle from "../../../layouts/PageTitle";
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import TimePickerPicker from 'react-time-picker';
 
 function TimePicker() {

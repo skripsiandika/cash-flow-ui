@@ -1,5 +1,5 @@
-import React, { Fragment,  useRef } from "react";
-import { Link } from "react-router-dom";
+import React, {Fragment, useRef} from "react";
+import {Link} from "react-router-dom";
 import data from "./tableData.js";
 
 const ProfileDatatable = () => {

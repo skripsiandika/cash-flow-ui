@@ -1,5 +1,5 @@
-import React, { createContext, useEffect, useState } from "react";
-import { dezThemeSet } from './ThemeDemo';
+import React, {createContext, useEffect, useState} from "react";
+import {dezThemeSet} from './ThemeDemo';
 
 export const ThemeContext = createContext();
 

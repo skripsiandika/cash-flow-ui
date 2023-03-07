@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import {Link} from 'react-router-dom';
-import { Row, Card, Col, Button, Modal, Container } from "react-bootstrap";
+import {Button, Card, Col, Container, Modal, Row} from "react-bootstrap";
 import PageTitle from "../../layouts/PageTitle";
 
 const UiModal = () => {

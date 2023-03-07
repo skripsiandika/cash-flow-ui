@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { SketchPicker } from "react-color";
-import { GradientPickerPopover } from "react-linear-gradient-picker";
+import React, {useState} from "react";
+import {SketchPicker} from "react-color";
+import {GradientPickerPopover} from "react-linear-gradient-picker";
 
 const rgbToRgba = (rgb, a = 1) =>
   rgb.replace("rgb(", "rgba(").replace(")", `, ${a})`);

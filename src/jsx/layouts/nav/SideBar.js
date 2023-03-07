@@ -1,15 +1,15 @@
-import React, { useContext, useReducer, useState } from "react";
+import React, {useContext, useReducer, useState} from "react";
 
 import PerfectScrollbar from "react-perfect-scrollbar";
 //  import Collapse from 'react-bootstrap/Collapse';
-import { Collapse } from 'react-bootstrap';
+import {Collapse} from 'react-bootstrap';
 
 /// Link
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
-import { MenuList } from './Menu';
-import { useScrollPosition } from "@n8tb1t/use-scroll-position";
-import { ThemeContext } from "../../../context/ThemeContext";
+import {MenuList} from './Menu';
+import {useScrollPosition} from "@n8tb1t/use-scroll-position";
+import {ThemeContext} from "../../../context/ThemeContext";
 
 const reducer = (previousState, updatedState) => ({
   ...previousState,

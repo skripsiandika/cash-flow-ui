@@ -1,5 +1,5 @@
 //import swalMessage from "@sweetalert/with-react";
-import React, { Fragment } from "react";
+import React, {Fragment} from "react";
 import swal from "sweetalert";
 import PageTitle from "../../../layouts/PageTitle";
 

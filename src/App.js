@@ -1,12 +1,12 @@
-import { lazy, Suspense, useEffect } from 'react';
+import {lazy, Suspense, useEffect} from 'react';
 
 /// Components
 import Index from "./jsx";
-import { connect, useDispatch } from 'react-redux';
-import {  Route, Routes, useLocation , useNavigate , useParams } from 'react-router-dom';
+import {connect, useDispatch} from 'react-redux';
+import {Route, Routes, useLocation, useNavigate, useParams} from 'react-router-dom';
 // action
-import { checkAutoLogin } from './services/AuthService';
-import { isAuthenticated } from './store/selectors/AuthSelectors';
+import {checkAutoLogin} from './services/AuthService';
+import {isAuthenticated} from './store/selectors/AuthSelectors';
 /// Style
 import "./vendor/bootstrap-select/dist/css/bootstrap-select.min.css";
 import "./css/style.css";

@@ -1,9 +1,9 @@
-import React, { Fragment } from "react";
+import React, {Fragment} from "react";
 
 import PageTitle from "../../../layouts/PageTitle";
 
 import data from "../../table/tableData";
-import { Badge, Dropdown, Table } from "react-bootstrap";
+import {Badge, Dropdown, Table} from "react-bootstrap";
 
 const ProductOrder = () => {
    return (

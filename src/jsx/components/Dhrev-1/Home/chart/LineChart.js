@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import ReactApexChart from "react-apexcharts";
 
 class ApexLine3 extends React.Component {

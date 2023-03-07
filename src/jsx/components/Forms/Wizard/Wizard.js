@@ -1,6 +1,6 @@
-import React, { Fragment, useState } from "react";
+import React, {Fragment, useState} from "react";
 //import Multistep from "react-multistep";
-import { Stepper, Step } from 'react-form-stepper';
+import {Step, Stepper} from 'react-form-stepper';
 
 import StepOne from "./StepOne";
 import StepTwo from "./StepTwo";

@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
-import { connect, useDispatch } from 'react-redux';
-import { updatePostAction } from '../../../../store/actions/PostActions';
-import { getPost } from '../../../../store/selectors/PostSelectors';
-import { Row, Col, Card, Table, Badge, } from "react-bootstrap";
+import {useEffect, useState} from 'react';
+import {connect, useDispatch} from 'react-redux';
+import {updatePostAction} from '../../../../store/actions/PostActions';
+import {getPost} from '../../../../store/selectors/PostSelectors';
+import {Card, Col, Row, Table,} from "react-bootstrap";
 
 function EditPost(props) {
     const [post, setPost] = useState(props.post);

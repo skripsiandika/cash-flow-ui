@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react'
-import { Link } from 'react-router-dom'
+import React, {Fragment} from 'react'
+import {Link} from 'react-router-dom'
 
 // Page titie
 import PageTitle from '../layouts/PageTitle'
@@ -8,7 +8,7 @@ import PageTitle from '../layouts/PageTitle'
 import PerfectScrollbar from 'react-perfect-scrollbar'
 
 // BS
-import { Dropdown, Tab, Nav } from 'react-bootstrap'
+import {Dropdown, Nav, Tab} from 'react-bootstrap'
 
 // images
 import avatar1 from '../../images/avatar/1.jpg'
@@ -20,11 +20,11 @@ import bg5 from '../../images/big/img5.jpg'
 import bg1 from '../../images/big/img1.jpg'
 
 // Chart
-import { Sparklines, SparklinesLine, SparklinesBars } from 'react-sparklines'
+import {Sparklines, SparklinesBars, SparklinesLine} from 'react-sparklines'
 import Pie from '../components/Karciz/WidgetBasic/pie'
 import LineChart from '../components/Karciz/WidgetBasic/line3'
-import LineChart4 from '../components/Karciz/WidgetBasic/line4'
 import LineChart3 from '../components/Karciz/WidgetBasic/line3'
+import LineChart4 from '../components/Karciz/WidgetBasic/line4'
 import BarChart2 from '../components/Karciz/WidgetBasic/bar2'
 import BarChart3 from '../components/Karciz/WidgetBasic/bar3'
 //import LiveBar from '../components/Karciz/WidgetBasic/bar4'

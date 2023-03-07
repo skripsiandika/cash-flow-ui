@@ -1,8 +1,7 @@
-import React, {  useReducer } from "react";
-import { Link } from "react-router-dom";
-import { Dropdown, Button, Modal } from "react-bootstrap";
+import React, {useReducer} from "react";
+import {Link} from "react-router-dom";
+import {Button, Dropdown, Modal} from "react-bootstrap";
 //import { SRLWrapper } from "simple-react-lightbox";
-
 import LightGallery from 'lightgallery/react';
 // import styles
 import 'lightgallery/css/lightgallery.css';

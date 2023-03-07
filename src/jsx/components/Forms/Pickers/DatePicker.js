@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import ReactLightCalendar from "@lls/react-light-calendar";
 import "@lls/react-light-calendar/dist/index.css";
 

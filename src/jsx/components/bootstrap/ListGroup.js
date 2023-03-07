@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
+import React, {Fragment} from "react";
 import PageTitle from "../../layouts/PageTitle";
-import { Row, Card, Col, ListGroup, Badge, Tab } from "react-bootstrap";
+import {Badge, Card, Col, ListGroup, Row, Tab} from "react-bootstrap";
 
 const UiListGroup = () => {
    const listItem = [

@@ -1,6 +1,6 @@
-import React,{useState} from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
-import {Tab, Nav, Collapse} from 'react-bootstrap';
+import {Collapse, Nav, Tab} from 'react-bootstrap';
 
 const MenusBlog = () =>{
     const [open, setOpen] = useState(true);

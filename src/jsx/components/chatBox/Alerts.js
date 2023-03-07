@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+
 const Alerts = ({ toggleTab, PerfectScrollbar, toggleChatBox }) => {
    return (
       <div

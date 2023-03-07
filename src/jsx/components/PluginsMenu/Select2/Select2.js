@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react'
+import React, {Fragment, useState} from 'react'
 import Select from 'react-select'
 import CustomGroup from './CustomGroup'
 import Disabling from './Disabling'

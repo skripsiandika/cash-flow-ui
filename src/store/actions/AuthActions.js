@@ -1,14 +1,6 @@
 import React from 'react';
 //import { useNavigate } from "react-router-dom";
-
-
-import {
-    formatError,
-    login,
-    runLogoutTimer,
-    saveTokenInLocalStorage,
-    signUp,
-} from '../../services/AuthService';
+import {formatError, login, runLogoutTimer, saveTokenInLocalStorage, signUp,} from '../../services/AuthService';
 
 
 export const SIGNUP_CONFIRMED_ACTION = '[signup action] confirmed signup';

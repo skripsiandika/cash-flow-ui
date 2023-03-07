@@ -1,7 +1,7 @@
-import React, { Fragment, useState, useRef, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, {Fragment, useEffect, useRef, useState} from "react";
+import {Link} from "react-router-dom";
 import InboxMessage from "./InboxMessage";
-import { Dropdown } from "react-bootstrap";
+import {Dropdown} from "react-bootstrap";
 import PageTitle from "../../../../layouts/PageTitle";
 
 const Inbox = () => {

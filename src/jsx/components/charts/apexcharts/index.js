@@ -1,7 +1,7 @@
 import React from "react";
 import loadable from "@loadable/component";
 // import { Link } from 'react-router-dom';
-import { Row, Col, Card } from "react-bootstrap";
+import {Card, Col, Row} from "react-bootstrap";
 
 import pMinDelay from "p-min-delay";
 

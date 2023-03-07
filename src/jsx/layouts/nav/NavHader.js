@@ -1,11 +1,10 @@
-import React, { useState, useContext } from "react";
+import React, {useState} from "react";
 
 /// React router dom
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 //import { ThemeContext } from "../../../context/ThemeContext";
 /// images
 import logo from "../../../images/logo.png";
-import logoText from "../../../images/logo-text.png";
 
 export function NavMenuToggle() {
    setTimeout(() => {

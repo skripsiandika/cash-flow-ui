@@ -1,5 +1,5 @@
 import React from "react";
-import { Table } from "react-bootstrap";
+import {Table} from "react-bootstrap";
 
 import data from "./tableData.js";
 

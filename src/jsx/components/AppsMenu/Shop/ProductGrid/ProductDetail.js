@@ -1,7 +1,6 @@
-import React, { useState } from "react";
-import { Modal, Nav, Tab } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import classnames from 'classnames';
+import React, {useState} from "react";
+import {Modal, Nav, Tab} from "react-bootstrap";
+import {Link} from "react-router-dom";
 import avater1 from "../../../../../images/avatar/1.jpg";
 import product1 from "../../../../../images/product/1.jpg";
 import product2 from "../../../../../images/product/2.jpg";

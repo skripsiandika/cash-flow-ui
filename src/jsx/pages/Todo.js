@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Dropdown, Modal } from 'react-bootstrap';
+import React, {Component} from 'react';
+import {Dropdown, Modal} from 'react-bootstrap';
 
 class Todo extends Component {
     state = {

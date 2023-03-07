@@ -1,9 +1,8 @@
-import React from 'react'
-import { Fragment } from 'react'
+import React, {Fragment} from 'react'
 
 import PageTitle from '../../layouts/PageTitle.js'
-import { Row, Card, Nav, Col, Pagination } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import {Card, Col, Nav, Pagination, Row} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 const UiPagination = () => {
   const active = 1

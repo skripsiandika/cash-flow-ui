@@ -1,14 +1,6 @@
 import React from "react";
 import PageTitle from "../../layouts/PageTitle";
-import {
-  Row,
-  Col,
-  Card,
-  Popover,
-  Tooltip,
-  OverlayTrigger,
-  Button,
-} from "react-bootstrap";
+import {Button, Card, Col, OverlayTrigger, Row, Tooltip,} from "react-bootstrap";
 
 const UiPopOver = () => {
   let width = window.innerWidth;

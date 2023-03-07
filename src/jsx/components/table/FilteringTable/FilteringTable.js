@@ -1,9 +1,9 @@
-import React,{ useMemo } from 'react';
+import React, {useMemo} from 'react';
 import PageTitle from "../../../layouts/PageTitle";
-import { useTable, useGlobalFilter, useFilters, usePagination } from 'react-table';
+import {useFilters, useGlobalFilter, usePagination, useTable} from 'react-table';
 import MOCK_DATA from './MOCK_DATA_2.json';
-import { COLUMNS } from './Columns';
-import { GlobalFilter } from './GlobalFilter'; 
+import {COLUMNS} from './Columns';
+import {GlobalFilter} from './GlobalFilter';
 import './filtering.css';
 
 

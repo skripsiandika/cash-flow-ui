@@ -1,7 +1,8 @@
-import React, {  useRef } from "react";
-import { Badge } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import React, {useRef} from "react";
+import {Badge} from "react-bootstrap";
+import {Link} from "react-router-dom";
 import data from "./tableData.js";
+
 const FeesCollection = () => {
   const sort = 3;
   let jobPagination = Array(Math.ceil(data.feeTable.data.length / sort))

@@ -1,10 +1,9 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import { Col, Row } from "react-bootstrap";
+import React, {Component} from "react";
+import {Col, Row} from "react-bootstrap";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
-import interactionPlugin, { Draggable } from "@fullcalendar/interaction";
+import interactionPlugin, {Draggable} from "@fullcalendar/interaction";
 import Alert from "sweetalert2";
 
 class EventCalendar extends Component {

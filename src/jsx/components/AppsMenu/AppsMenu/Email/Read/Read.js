@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+import React, {Fragment} from "react";
+import {Link} from "react-router-dom";
 import profileImage from "../../../../../images/avatar/1.jpg";
 
-import { Dropdown } from "react-bootstrap";
+import {Dropdown} from "react-bootstrap";
 import PageTitle from "../../../../layouts/PageTitle";
 
 const Read = () => {

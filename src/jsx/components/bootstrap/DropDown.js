@@ -1,15 +1,7 @@
-import React, { Fragment } from 'react'
+import React, {Fragment} from 'react'
 import {Link} from 'react-router-dom';
 import PageTitle from '../../layouts/PageTitle'
-import {
-  Row,
-  Col,
-  Card,
-  Dropdown,
-  DropdownButton,
-  ButtonGroup,
-  SplitButton,
-} from 'react-bootstrap'
+import {ButtonGroup, Card, Col, Dropdown, DropdownButton, Row, SplitButton,} from 'react-bootstrap'
 
 const UiDropDown = () => {
   return (

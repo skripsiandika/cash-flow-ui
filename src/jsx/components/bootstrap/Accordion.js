@@ -1,6 +1,6 @@
-import React, { Fragment, useState,useReducer } from "react";
+import React, {Fragment} from "react";
 // import { Link } from 'react-router-dom';
-import { Row, Col, Card, Accordion } from "react-bootstrap";
+import {Accordion, Card, Col, Row} from "react-bootstrap";
 import PageTitle from "../../layouts/PageTitle";
 
 //const initial = 0;

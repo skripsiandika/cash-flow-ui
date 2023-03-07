@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link } from 'react-router-dom';
-import { Row, Col, Card } from "react-bootstrap";
+import {Card, Col, Row} from "react-bootstrap";
 
 import PageTitle from "../../../layouts/PageTitle";
 import BarChart1 from "./bar1";
@@ -14,7 +14,6 @@ import DualArea from "./dualArea";
 //import Radar from "./radar";
 import PolarChart from "./polar";
 //import DualLine2 from "./dualLine2";
-
 import ChartPie from "./pie";
 
 function ChartChartjs() {

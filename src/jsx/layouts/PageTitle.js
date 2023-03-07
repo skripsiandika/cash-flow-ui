@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const PageTitle = ({ pageHeading, motherMenu, activeMenu }) => {
   let path = window.location.pathname.split("/");

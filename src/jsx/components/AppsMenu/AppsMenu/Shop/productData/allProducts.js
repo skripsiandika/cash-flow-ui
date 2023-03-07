@@ -13,7 +13,7 @@ import listImg03 from "../../../../../images/tab/3.jpg";
 import listImg04 from "../../../../../images/tab/4.jpg";
 
 //** Import Rating Start */
-import { starOne, starTwo, starThree, starFour, starFive } from "./ProductStar";
+import {starFive, starFour, starOne, starThree, starTwo} from "./ProductStar";
 
 var allProduct = [
    {
