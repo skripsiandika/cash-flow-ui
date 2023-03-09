@@ -1,7 +1,7 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 
 /// React router dom
-import {Outlet, Route, Routes} from "react-router-dom";
+import { Outlet, Route, Routes } from "react-router-dom";
 
 /// Css
 //import "swiper/css";
@@ -22,7 +22,6 @@ import Content from './components/Cms/Content';
 import Menu from './components/Cms/Menu';
 import EmailTemplate from './components/Cms/EmailTemplate';
 import Blog from './components/Cms/Blog';
-
 
 //Ticket
 import AllTicket from './components/Ticket/AllTicket';
@@ -110,7 +109,7 @@ import Error403 from "./pages/Error403";
 import Error404 from "./pages/Error404";
 import Error500 from "./pages/Error500";
 import Error503 from "./pages/Error503";
-import {ThemeContext} from "../context/ThemeContext";
+import { ThemeContext } from "../context/ThemeContext";
 import Reports from "./pages/Reports";
 import RegistrationsList from "./components/Registrations/RegistrationsList";
 import CreateSme from "./components/sme/CreateSme";
@@ -139,7 +138,6 @@ const Markup = () => {
 
     //Reports
     { url: 'reports', component: <Reports /> },
-
 
     /// Apps
     { url: "app-profile", component: <AppProfile /> },
@@ -187,8 +185,6 @@ const Markup = () => {
 
     ///Redux
     { url: "todo", component: <Todo /> },
-    //{ url: "redux-form", component: ReduxForm },
-    //{ url: "redux-wizard", component: WizardForm },
 
     /// Widget
     { url: "widget-basic", component: <Widget /> },
